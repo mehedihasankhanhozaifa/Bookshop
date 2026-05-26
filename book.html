@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="booklogo.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="book.css">
+        <link rel="stylesheet" href="book.js">
+
+        <title>Book Shop</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="booklogo.png" alt="" style=" height: 30px; width: 27px; padding-bottom: 3px;"> Bookshop
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <!--<li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>-->
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Books</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#faqs" class="nav__link">FAQs</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                     <!--<i class="ri-moon-line change-theme" id="theme-button"></i>-->
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="book-8.png" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title" style="color: #a1daf5;">
+                            One more book <br> Because little <br>is not enough
+                        </h1>
+                        <p class="home__description">
+                            Create incredible plant design for your offices or apastaments. 
+                            Add fresness to your new ideas.
+                        </p>
+                        <a href="#about" class="button button--flex">
+                            Explore <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__social">
+                        <span class="home__social-follow">Follow Us</span>
+
+                        <div class="home__social-links">
+                            <a href="https://www.facebook.com/mehedihasankhanhozaifa" target="_blank" class="home__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/mehedihasankhanhozaifa/" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/mhkhozaifa" target="_blank" class="home__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <!--
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <img src="about.png" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Who we really are & <br> why choose us
+                        </h2>
+
+                        <p class="about__description">
+                            We have over 4000+ unbiased reviews and our customers 
+                            trust our plant process and delivery service every time
+                        </p>
+
+                        <div class="about__details">
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                We always deliver on time.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                We give you guides to protect and care for your plants.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                We always come over for a check-up after sale.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                100% money back guaranteed.
+                            </p>
+                        </div>
+
+                        <a href="#" class="button--link button--flex">
+                            Shop Now <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+             -->
+            <!--==================== STEPS ====================-->            
+            
+            <section class="steps section container">
+                <div class="steps__bg">
+                    <h2 class="section__title-center steps__title">
+                        Student pannel 
+                    </h2>
+
+                    <div class="steps__container grid">
+                        <div class="steps__card">
+                            <div class="steps__card-number"><img src="testimonial-perfil-1.png" alt="" style="height: 75px; width: 80px; border-radius: 50%;"></div>
+                            <h3 class="steps__card-title">Choose Plant</h3>
+                            <p class="steps__card-description">
+                                We have several varieties plants you can choose from.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number"><img src="testimonial-perfil-2.png" alt="" style="height: 75px; width: 80px; border-radius: 50%;"></div>
+                            <h3 class="steps__card-title">Place an order</h3>
+                            <p class="steps__card-description">
+                                Once your order is set, we move to the next step which is the shipping.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number"><img src="testimonial-perfil-4.png" alt="" style="height: 75px; width: 80px; border-radius: 50%;"></div>
+                            <h3 class="steps__card-title">Get plants delivered</h3>
+                            <p class="steps__card-description">
+                                Our delivery process is easy, you receive the plant direct to your door.
+                            </p>
+                        </div>
+                        <div class="step__more"><i class='bx bx-right-arrow-alt'></i></div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="product section container" id="products">
+                <h2 class="section__title-center">
+                    Check out our <br> Books
+                </h2>
+
+                <p class="product__description">
+                    Here are some selected book from our academy, all are in excellent 
+                    information and has a lots of mcq questions. Buy and enjoy best book.
+                </p>
+
+                <div class="product__container grid">
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <a href="productpage1.html" target="_blank"><img src="book1.png" alt="" class="product__img"></a>
+
+                        <h3 class="product__title">Physics Bundle Pack</h3>
+                        <span class="product__price">৳800</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="book2.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Physics 1st</h3>
+                        <span class="product__price">৳500</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="book3.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Physics 2nd</h3>
+                        <span class="product__price">৳500</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="book4.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Chemistry Bundle Pack</h3>
+                        <span class="product__price">৳800</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="book-5.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Chemistry 1st</h3>
+                        <span class="product__price">৳500</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="book-7.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Chemistry 2nd</h3>
+                        <span class="product__price">৳500</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== QUESTIONS ====================-->
+             <!--
+            <section class="questions section" id="faqs">
+                <h2 class="section__title-center questions__title container">
+                    Some common questions <br> were often asked
+                </h2>
+
+                <div class="questions__container container grid">
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    My flowers are falling off or dying?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Plants are easy way to add color energy and transform your 
+                                    space but which planet is for you. Choosing the right plant.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    What causes leaves to become pale?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Plants are easy way to add color energy and transform your 
+                                    space but which planet is for you. Choosing the right plant.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    What causes brown crispy leaves?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Plants are easy way to add color energy and transform your 
+                                    space but which planet is for you. Choosing the right plant.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    How do i choose a plant?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Plants are easy way to add color energy and transform your 
+                                    space but which planet is for you. Choosing the right plant.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    How do I change the pots?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Plants are easy way to add color energy and transform your 
+                                    space but which planet is for you. Choosing the right plant.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Why are gnats flying around my plant?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Plants are easy way to add color energy and transform your 
+                                    space but which planet is for you. Choosing the right plant.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        -->
+            <!--==================== CONTACT ====================-->
+            <section class="contact section container" id="contact">                
+                <div class="contact__container grid">
+                    <div class="contact__box">
+                        <h2 class="section__title">
+                            Reach out to us today <br> via any of the given <br> information
+                        </h2>
+
+                        <div class="contact__data">
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Call us for instant support</h3>
+                                <span class="contact__description">
+                                    <i class="ri-phone-line contact__icon"></i>
+                                    +880 1881 6839 88
+                                </span>
+                            </div>
+
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Write us by mail</h3>
+                                <span class="contact__description">
+                                    <i class="ri-mail-line contact__icon"></i>
+                                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXRHRdVVqqZNtPQNjsfgnVvXkLFkDbZFhJWCFbWwkXswLxDHncGxtFsgJGGLqzSpnWLrQ" style="color: #1c2951;">mehedihasankhanhozaifa@gmail.com</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <div class="contact__inputs">
+
+                            <input type="hidden" name="access_key" value="61fb507c-a55c-4819-8bdb-509b24f87e4a">
+
+                            <!--<div class="contact__content">
+                                <input type="email" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Email</label>
+                            </div>
+                            
+                            <div class="contact__content">
+                                <input type="text" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Subject</label>
+                            </div>-->
+
+                            <div class="contact__content contact__area">
+                                <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
+                                <label for="" class="contact__label">Email, Subject, Message</label>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex">
+                            Send Message
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <img src="booklogo.png" alt="" style=" height: 33px; width: 30px; padding-bottom: 4px;"> Bookshop
+                    </a>
+
+                    <h3 class="footer__title">
+                        Follow to our facebook book <br> to stay update
+                    </h3>
+
+                    <div class="footer__subscribe">
+                        <!--<input type="email" placeholder="Enter your email" class="footer__input">-->
+                        <button class="button button--flex footer__button">
+                             <a href="https://www.facebook.com/mehedihasankhanhozaifa" target="_blank" style="color: white;">Follow Us</a>
+                        <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Help</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information"><a href="" target="_blank" style="color: #1c2951;">About Us</a></li>
+                        <li class="footer__information"><a href="" target="_blank" style="color: #1c2951;">Privacy Policy</a></li>
+                        <li class="footer__information"><a href="" target="_blank" style="color: #1c2951;">Terms & Conditions</a></li>
+                        <li class="footer__information"><a href="" target="_blank" style="color: #1c2951;">Refund Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Contact Us</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">+880 1881 6839 88</li>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/mehedihasankhanhozaifa" target="_blank" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/mehedihasankhanhozaifa/" target="_blank" class="footer__social-link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mehedihasankhanhozaifa/" target="_blank" class="footer__social-link">
+                                <i class="ri-linkedin-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/mhkhozaifa" target="_blank" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCWxXcAJRf1vHWRGtDdhnVuw" target="_blank" class="footer__social-link">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                            <a href="https://m.me/mehedihasankhanhozaifa" target="_blank" class="footer__social-link">
+                                <i class="ri-messenger-fill"></i>
+                            </a>
+                            <a href="https://www.google.com/maps/place/Bangladesh/@23.4843846,87.7027721,831364m/data=!3m2!1e3!4b1!4m6!3m5!1s0x30adaaed80e18ba7:0xf2d28e0c4e1fc6b!8m2!3d23.684994!4d90.356331!16zL20vMDE2MmI?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="footer__social-link">
+                                <i class="ri-road-map-fill"></i>
+                            </a>
+                            
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        We accept all mobile banking
+                    </h3>
+
+                    <div class="footer__cards">
+                        <img src="bkash.png" alt="" class="footer__card">
+                        <img src="nagad.png" alt="" class="footer__card">
+                        <img src="rocket.png" alt="" class="footer__card">
+                        <img src="upay.png" alt="" class="footer__card" style="height: 30px; width: 27px; padding-bottom: 3px;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__copy">Bookshop © 2024 All Rights Reserved | © 2024 Design By <span><a href="https://github.com/mehedihasankhanhozaifa" target="_blank" style="color: #5d82ef">Hozaifa</a></span></div>
+        </footer>
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="scrollreveal.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="book.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+    </body>
+</html>
